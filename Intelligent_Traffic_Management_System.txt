@@ -1,0 +1,17 @@
+INTELLIGENT TRAFFIC MANAGEMENT SYSTEM
+
+Project Description:
+This is an intelligent traffic management system that monitors traffic on all four roads. Instead of working on a fixed timer like normal traffic lights, it checks the traffic density on each road. The road with more traffic is given a green light for a longer time, so that more vehicles can pass and traffic congestion can be reduced. It makes decisions automatically based on real-time traffic.
+
+Components / Hardware Used:
+1. Arduino Uno: The brain of the system. It controls all the operations and makes decisions.
+2. IR Sensors (4x): One sensor is installed on each road to detect and count the vehicles.
+3. LED Lights (12x): 3 LEDs (Red, Yellow, Green) for each road. Total 12 LEDs for 4 roads.
+4. Breadboard / PCB Board: Used to connect all the components together.
+5. Jumper Wires and Power Supply: For connections and to power the system.
+
+Programming Language Used:
+C - The code is written in C language using the Arduino IDE.
+
+Working Method:
+IR Sensors detect vehicles on each road -> Send data to Arduino Uno -> Arduino calculates which road has the highest traffic density -> Arduino gives a longer green signal to that road to clear the traffic.
